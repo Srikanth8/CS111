@@ -1,0 +1,17 @@
+CS 111, Lab 1a, Srikanth Ashtalakshmi V Rajendran (UID: 804478782)
+
+The program can perform its intended task given correct inputs. In case of errors in the input,
+the program may or may not provide a correct output depending on the errors' effect on other
+options.
+
+The program generally handles errors by displaying an appropriate error message, and moving on to
+the next option in the input. A list of errors that the program handles is shown below.
+
+- No argument(s) provided when an option needs atleast one
+- Improper syntax for options and their arguments
+- Invalid options
+- Attempting to open a file that doesn't exist
+- Use of invalid file descriptors in --command option
+- Invalid command arguments to the --command option
+- Failure when forking a process
+- Failure in memory reallocation
